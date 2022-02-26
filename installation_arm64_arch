@@ -1,0 +1,5 @@
+### Installing GridAPPS-D on arm64 arch based os:
+    Follow steps in this guide. For none mac systems, ignore xcode installation
+    Before running this command ./docker_install_ubuntu.sh, do the following:
+        sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        This installes a version of docker-compose that is compatible with arm64 arch based systems
